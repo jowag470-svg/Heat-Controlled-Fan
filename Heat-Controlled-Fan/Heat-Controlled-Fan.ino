@@ -35,7 +35,7 @@ if (fanOn) {
   digitalWrite (5,LOW);
 }
 
-Serial.println(tempF); Serial.println(analogRead(2));
+Serial.println(tempF); 
 delay(500);       // serial monitor reads twice per second
 }
 
